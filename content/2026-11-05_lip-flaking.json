@@ -1,0 +1,113 @@
+{
+  "id": "2026-11-05_lip-flaking",
+  "topic": "환절기 입술 각질",
+  "format": "info",
+  "line": "GLOW",
+  "host": "glow",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "GLOW's NOTE",
+      "label": "글로의\n입술 노트",
+      "title": "립밤 발라도 [[입술이 텄어요]]",
+      "body": "환절기 입술 각질, 글로가 알려드릴게요",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null,
+      "scene": [
+        "mouth",
+        "lipstick",
+        "leaf_fluttering_in_wind",
+        "sparkles"
+      ],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. Close-up of a Korean woman's lips, slightly matte and dry-looking in a natural way, her fingertip holding a plain unbranded white lip balm tube near her mouth, face above the nose out of frame. Soft peach and cream color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "이런 적 있으세요?",
+      "title": "혹시 [[나도?]]",
+      "items": [
+        "립스틱 바르면 각질이 일어나요",
+        "자꾸 입술을 뜯게 돼요",
+        "입꼬리가 갈라져서 따가워요"
+      ],
+      "speech": "하나라도 있다면 끝까지!",
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "원인 01",
+      "title": "입술은 [[유분이 없어요]]",
+      "body": "입술은 피부보다 얇고, 기름을 내보내는 피지선이 거의 없어요. 그래서 공기가 마르는 계절엔 다른 곳보다 먼저 거칠어져요.",
+      "speech": "태생부터 연약해요!",
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "원인 02",
+      "title": "자꾸 [[핥았어요]]",
+      "body": "입술이 마를 때 핥으면 잠깐은 괜찮지만, 침이 마르면서 남은 수분까지 같이 날아가요. 핥을수록 더 건조해지는 악순환이에요.",
+      "speech": "무심코 하는 습관이에요!",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "오늘부터 딱 3가지",
+      "title": "글로의\n[[입술 루틴]]",
+      "items": [
+        {
+          "head": "각질은 뜯지 않기",
+          "sub": "샤워 후 불었을 때 살살 정리"
+        },
+        {
+          "head": "립밤은 수시로 덧바르기",
+          "sub": "식사 후, 자기 전엔 꼭"
+        },
+        {
+          "head": "핥는 대신 물 한 모금",
+          "sub": "입이 마를 땐 물부터 마시기"
+        }
+      ],
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "저장해두고 오늘 밤 체크",
+      "title": "입술 각질\n[[체크리스트]]",
+      "items": [
+        "오늘 입술 안 뜯었나요?",
+        "자기 전 립밤 발랐나요?",
+        "입술 대신 물 마셨나요?"
+      ],
+      "note": "생활 습관 정보예요. 증상이 오래가면 전문가와 상담하세요.",
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "내일도 글로와 [[반짝하게!]]",
+      "body": "저장 · 공유하고 친구에게도 알려주세요",
+      "handle": "@melzzi.official",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption_ko": "립밤 발라도 입술이 트는 이유, 알고 계셨나요? 💋\n\n입술은 피지선이 거의 없어서 건조한 계절에 가장 먼저 거칠어지고, 핥는 습관이 남은 수분까지 날려버려요.\n각질 뜯지 않기 · 립밤 수시로 덧바르기 · 핥는 대신 물 한 모금",
+  "caption_en": "Why do lips crack even with lip balm? They have almost no oil glands, and licking dries them further.\nThree habits: don't peel, reapply balm often, sip water instead of licking.",
+  "cta": "저장해두고 오늘 밤 체크해보세요!",
+  "hashtags": [
+    "#멜찌",
+    "#MELZZI",
+    "#멜찌루틴",
+    "#입술각질",
+    "#입술관리",
+    "#환절기입술",
+    "#립밤",
+    "#건조한입술",
+    "#가을뷰티",
+    "#멜찌GLOW"
+  ]
+}

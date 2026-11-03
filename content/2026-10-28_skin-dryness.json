@@ -1,0 +1,120 @@
+{
+  "id": "2026-10-28_skin-dryness",
+  "topic": "환절기 피부건조",
+  "format": "info",
+  "line": "CLEAR",
+  "host": "clear",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "CLEAR's NOTE",
+      "title": "세안 후 [[땅김]], 이유 있어요!",
+      "body": "환절기 피부건조, 클리어가 짚어드릴게요",
+      "character": "characters/clear_happy_wave_01.png",
+      "package": null,
+      "flip": false,
+      "label": "클리어의\n환절기 노트",
+      "scene": [
+        "mirror",
+        "droplet",
+        "sun",
+        "sparkles"
+      ],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A Korean woman in her 20s, face mostly out of frame, gently touching her cheek in front of a bathroom mirror right after washing her face, a soft white towel on her shoulder, tiny water droplets on the mirror, morning light. Mint green and cream color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "이런 적 있으세요?",
+      "title": "혹시 [[나도?]]",
+      "items": [
+        "세수하고 1분 만에 얼굴이 당겨요",
+        "오후만 되면 화장이 들떠요",
+        "볼이나 입가가 하얗게 일어나요"
+      ],
+      "speech": "하나라도 있다면 끝까지 봐주세요!",
+      "character": "characters/clear_wink_hold_gummy_01.png",
+      "package": null,
+      "flip": false
+    },
+    {
+      "type": "cause",
+      "kicker": "원인 01",
+      "title": "공기가 [[말랐어요]]",
+      "body": "가을부터는 바깥 습도가 뚝 떨어지고, 난방까지 켜면 실내 공기도 바짝 말라요. 피부 수분이 공기 중으로 날아가기 쉬운 환경이 되는 거예요.",
+      "speech": "계절 탓도 꽤 커요!",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "package": null,
+      "flip": false
+    },
+    {
+      "type": "cause",
+      "kicker": "원인 02",
+      "title": "세안이 너무 [[뜨거웠어요]]",
+      "body": "뜨거운 물로 오래 문지르는 세안은 피부 표면의 유분까지 씻어내요. 겉을 지켜주던 막이 얇아지면 금방 땅기게 돼요.",
+      "speech": "개운한 느낌에 속지 마세요!",
+      "character": "characters/clear_wink_hold_gummy_01.png",
+      "package": null,
+      "flip": false
+    },
+    {
+      "type": "tips",
+      "kicker": "오늘부터 딱 3가지",
+      "title": "클리어의\n[[루틴 메모]]",
+      "items": [
+        {
+          "head": "미지근한 물로 1분 세안",
+          "sub": "뜨거운 물 대신 손등에 미지근한 정도"
+        },
+        {
+          "head": "세안 후 3분 안에 보습",
+          "sub": "물기가 마르기 전에 바로 바르기"
+        },
+        {
+          "head": "실내 습도 40~60%",
+          "sub": "가습기나 젖은 수건 하나로도 충분"
+        }
+      ],
+      "character": "characters/clear_happy_wave_01.png",
+      "package": null,
+      "flip": false
+    },
+    {
+      "type": "summary",
+      "kicker": "저장해두고 오늘 밤 체크",
+      "title": "피부건조\n[[체크리스트]]",
+      "items": [
+        "미지근한 물로 1분 세안했나요?",
+        "세안 후 3분 안에 보습했나요?",
+        "방 습도 40~60%로 맞췄나요?"
+      ],
+      "note": "생활 습관 정보예요. 증상이 오래가면 전문가와 상담하세요.",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "package": null,
+      "flip": false
+    },
+    {
+      "type": "signoff",
+      "title": "내일도 클리어와 [[상큼하게!]]",
+      "body": "저장 · 공유하고 친구에게도 알려주세요",
+      "handle": "@melzzi.official",
+      "character": "characters/clear_happy_wave_01.png",
+      "package": null,
+      "flip": false
+    }
+  ],
+  "caption_ko": "세안하고 1분 만에 얼굴이 당긴 적 있으신가요? 🫧\n\n환절기엔 공기가 마르고, 뜨거운 세안이 피부 표면 유분까지 씻어내서 그래요.\n오늘부터 딱 3가지만 챙겨보세요.\n미지근한 물 1분 세안 · 세안 후 3분 안에 보습 · 실내 습도 40~60%",
+  "caption_en": "Face feeling tight right after washing? Dry air and hot-water cleansing are often why.\nTry three small habits tonight: lukewarm wash, moisturize within 3 minutes, keep humidity at 40–60%.",
+  "cta": "저장해두고 오늘 밤 체크해보세요!",
+  "hashtags": [
+    "#멜찌",
+    "#MELZZI",
+    "#멜찌루틴",
+    "#피부건조",
+    "#환절기피부",
+    "#세안루틴",
+    "#보습루틴",
+    "#건조한피부",
+    "#가을피부",
+    "#멜찌CLEAR"
+  ]
+}

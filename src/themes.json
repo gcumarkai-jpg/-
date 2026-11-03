@@ -1,0 +1,6 @@
+{
+  "CLEAR":   {"name": "클리어", "bg": "#E4F4EA", "bg2": "#CBEBD9", "accent": "#B5D86A", "accent_deep": "#7FA83A", "ink": "#1F3B2A", "soft": "#557560", "pop": "#EE6F86", "card": "#FFFFFF"},
+  "GLOW":    {"name": "글로",   "bg": "#FCE8DF", "bg2": "#F9D6C8", "accent": "#F4A08C", "accent_deep": "#D9735C", "ink": "#4A2A22", "soft": "#8A5E52", "pop": "#EE6F86", "card": "#FFFFFF"},
+  "CALM":    {"name": "캄",     "bg": "#FBE7EC", "bg2": "#F4D2DB", "accent": "#E58A9A", "accent_deep": "#C25A6E", "ink": "#4A2430", "soft": "#8C5A66", "pop": "#EE6F86", "card": "#FFFFFF"},
+  "BALANCE": {"name": "밸런스", "bg": "#F3E2E6", "bg2": "#E8C4CC", "accent": "#B04A68", "accent_deep": "#8A2D4A", "ink": "#3A1E2A", "soft": "#7A5462", "pop": "#EE6F86", "card": "#FFFFFF"}
+}

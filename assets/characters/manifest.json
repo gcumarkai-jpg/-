@@ -1,0 +1,86 @@
+[
+  {
+    "file": "characters/clear_wink_hold_gummy_01.png",
+    "member": "clear",
+    "emotion": "wink",
+    "action": "hold_gummy",
+    "use": "윙크하며 젤리 들기 — 팁, 정리"
+  },
+  {
+    "file": "characters/clear_happy_wave_01.png",
+    "member": "clear",
+    "emotion": "happy",
+    "action": "wave",
+    "use": "손 흔들며 활짝 — 표지, 인사, 마무리"
+  },
+  {
+    "file": "characters/clear_wink_sit_gummy_01.png",
+    "member": "clear",
+    "emotion": "wink",
+    "action": "sit_hold_gummy",
+    "use": "앉아서 젤리 안기 — 설명, 체크리스트"
+  },
+  {
+    "file": "characters/glow_happy_hold_heart_01.png",
+    "member": "glow",
+    "emotion": "happy",
+    "action": "hold_heart",
+    "use": "눈웃음 하트 안기 — 공감, 마무리"
+  },
+  {
+    "file": "characters/glow_excited_wave_01.png",
+    "member": "glow",
+    "emotion": "excited",
+    "action": "wave",
+    "use": "하트 눈 손 흔들기 — 표지, 인사"
+  },
+  {
+    "file": "characters/glow_happy_sit_heart_01.png",
+    "member": "glow",
+    "emotion": "happy",
+    "action": "sit_hold_heart",
+    "use": "앉아서 하트 안기 — 팁, 정리"
+  },
+  {
+    "file": "characters/calm_happy_hold_heart_01.png",
+    "member": "calm",
+    "emotion": "happy",
+    "action": "hold_heart",
+    "use": "눈웃음 하트 들기 — 공감, 팁"
+  },
+  {
+    "file": "characters/calm_happy_wave_01.png",
+    "member": "calm",
+    "emotion": "happy",
+    "action": "wave",
+    "use": "하트 들고 손 흔들기 — 표지, 인사"
+  },
+  {
+    "file": "characters/calm_joy_hug_heart_01.png",
+    "member": "calm",
+    "emotion": "joy",
+    "action": "hug_heart",
+    "use": "하트 꼭 안기 — 마무리, 휴식 주제"
+  },
+  {
+    "file": "characters/balance_happy_hold_gummy_01.png",
+    "member": "balance",
+    "emotion": "happy",
+    "action": "hold_gummy",
+    "use": "젤리 들고 웃기 — 설명, 팁"
+  },
+  {
+    "file": "characters/balance_wink_peace_01.png",
+    "member": "balance",
+    "emotion": "wink",
+    "action": "peace",
+    "use": "윙크 브이 — 표지, 마무리"
+  },
+  {
+    "file": "characters/balance_excited_hold_gummy_01.png",
+    "member": "balance",
+    "emotion": "excited",
+    "action": "hold_gummy",
+    "use": "반짝 눈 젤리 들기 — 공감, 놀람"
+  }
+]

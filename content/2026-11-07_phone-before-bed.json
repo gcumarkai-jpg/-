@@ -1,0 +1,113 @@
+{
+  "id": "2026-11-07_phone-before-bed",
+  "topic": "자기 전 휴대폰 습관",
+  "format": "info",
+  "line": "CALM",
+  "host": "calm",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "CALM's NOTE",
+      "label": "캄의\n밤 루틴 노트",
+      "title": "누웠는데 [[잠이 안 와요]]",
+      "body": "자기 전 휴대폰 습관, 캄과 함께 점검해요",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null,
+      "scene": [
+        "mobile_phone",
+        "crescent_moon",
+        "alarm_clock",
+        "zzz"
+      ],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A smartphone glowing face-up on rumpled bedding at night, a hand reaching toward it, a dim warm bedside lamp and a small alarm clock in soft focus, cozy dark bedroom. Lychee pink and warm white color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "이런 적 있으세요?",
+      "title": "혹시 [[나도?]]",
+      "items": [
+        "눕고 나서 폰을 1시간 넘게 봐요",
+        "피곤한데 눈은 말똥말똥해요",
+        "아침에 일어나기가 너무 힘들어요"
+      ],
+      "speech": "천천히 같이 봐요~",
+      "character": "characters/calm_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "원인 01",
+      "title": "밝은 화면이 [[깨워요]]",
+      "body": "화면의 밝은 빛은 뇌가 아직 낮이라고 느끼게 만들어요. 잠들 준비를 해야 할 시간에 몸이 계속 깨어 있는 모드로 남는 거예요.",
+      "speech": "빛도 신호가 돼요~",
+      "character": "characters/calm_joy_hug_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "원인 02",
+      "title": "한 개만 더 [[보고 싶어요]]",
+      "body": "짧은 영상과 피드는 끝이 없어서 멈출 타이밍을 놓치기 쉬워요. 재밌는 걸 볼수록 머리가 바빠져서 쉽게 가라앉지 않아요.",
+      "speech": "알고리즘은 지치지 않아요~",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "오늘부터 딱 3가지",
+      "title": "캄의\n[[밤 루틴]]",
+      "items": [
+        {
+          "head": "자기 30분 전 폰 내려놓기",
+          "sub": "충전기는 침대에서 먼 곳에"
+        },
+        {
+          "head": "방 조명 한 단계 낮추기",
+          "sub": "잠들기 전엔 은은한 불빛"
+        },
+        {
+          "head": "매일 비슷한 시간에 눕기",
+          "sub": "주말에도 1시간 안쪽으로"
+        }
+      ],
+      "character": "characters/calm_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "저장해두고 오늘 밤 체크",
+      "title": "밤 루틴\n[[체크리스트]]",
+      "items": [
+        "30분 전에 폰 내려놨나요?",
+        "방 조명 낮췄나요?",
+        "어제와 비슷한 시간에 누웠나요?"
+      ],
+      "note": "생활 습관 정보예요. 증상이 오래가면 전문가와 상담하세요.",
+      "character": "characters/calm_joy_hug_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "오늘 밤은 캄과 [[포근하게~]]",
+      "body": "저장 · 공유하고 친구에게도 알려주세요",
+      "handle": "@melzzi.official",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption_ko": "누웠는데 잠이 안 오는 밤, 휴대폰 때문일 수도 있어요 🌙\n\n밝은 화면은 뇌를 낮 모드로 붙잡고, 끝없는 피드는 머리를 계속 바쁘게 만들어요.\n자기 30분 전 폰 내려놓기 · 방 조명 낮추기 · 매일 비슷한 시간에 눕기",
+  "caption_en": "Can't fall asleep after scrolling? Bright screens and endless feeds keep your brain in daytime mode.\nTry three habits: phone down 30 minutes before bed, dim the lights, keep a regular bedtime.",
+  "cta": "저장해두고 오늘 밤 체크해보세요!",
+  "hashtags": [
+    "#멜찌",
+    "#MELZZI",
+    "#멜찌루틴",
+    "#밤루틴",
+    "#잠들기전",
+    "#휴대폰습관",
+    "#디지털디톡스",
+    "#수면루틴",
+    "#나를위한시간",
+    "#멜찌CALM"
+  ]
+}
