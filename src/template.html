@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="{{ lang }}">
 <head>
 <meta charset="utf-8">
 <style>
@@ -16,6 +16,8 @@ body {
   letter-spacing: -0.025em; word-break: keep-all; overflow: hidden;
   background: var(--bg);
 }
+html[lang=en] body { word-break: normal; overflow-wrap: break-word; letter-spacing: -0.01em; }
+html[lang=en] .title { letter-spacing: -0.03em; }
 .canvas { position: relative; width: 1080px; height: 1350px; overflow: hidden;
   background:
     radial-gradient(circle at 88% 8%, var(--bg2) 0 220px, transparent 221px),
@@ -182,7 +184,7 @@ body {
 {% endif %}
 
   {% if s.type != 'signoff' %}
-  <div class="foot"><span>{{ t['name'] }} · {{ line }}</span><span>MELZZI</span></div>
+  <div class="foot"><span>{% if lang == 'en' %}{{ t['name_en'] }}'s Note{% else %}{{ t['name'] }} · {{ line }}{% endif %}</span><span>MELZZI</span></div>
   {% endif %}
 </div>
 </body>

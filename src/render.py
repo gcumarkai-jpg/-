@@ -19,6 +19,17 @@ BANNED = [
     "장 건강", "마음 안정", "긴장 완화", "숙면", "효과", "효능", "개선", "100%", "무조건", "최고",
     "히알루론산", "프리바이오틱", "마그네슘", "비타민",
 ]
+# 영어 대본용 (단어 경계, 대소문자 무시). 일반식품: 질병·효능·의약품·최상급 표현 금지
+BANNED_EN = [
+    "treat", "treats", "treatment", "cure", "cures", "heal", "heals", "healing", "remedy", "prevent", "prevents",
+    "prevention", "relieve", "relieves", "relief", "acne", "eczema", "atopic", "dermatitis", "insomnia",
+    "prescription", "dose", "dosage", "medicine", "medicinal", "supplement", "efficacy", "effective",
+    "effect", "effects", "improve", "improves", "improvement", "boost", "boosts", "detox", "inner beauty",
+    "beauty from within", "from within", "from the inside", "drinkable", "edible skincare", "gut health",
+    "deep sleep", "sound sleep", "anti-aging", "anti-ageing", "clinically", "proven", "guaranteed",
+    "100%", "best", "#1", "number one", "miracle", "collagen", "hyaluronic", "prebiotic", "probiotic",
+    "magnesium", "vitamin", "vitamins", "anxiety", "stress relief",
+]
 MAX_SLIDES = 10  # Instagram publishing API carousel limit
 
 
@@ -26,8 +37,9 @@ def all_text(obj):
     if isinstance(obj, str):
         yield obj
     elif isinstance(obj, dict):
-        for v in obj.values():
-            yield from all_text(v)
+        for k, v in obj.items():
+            if k != "photo_prompt":   # 이미지 생성용 지시문(게시되지 않음, "no medicine" 같은 부정문 포함)
+                yield from all_text(v)
     elif isinstance(obj, list):
         for v in obj:
             yield from all_text(v)
@@ -50,6 +62,9 @@ def check(script):
         for w in BANNED:
             if w in text:
                 errors.append(f"금지 표현 '{w}': {text[:40]}")
+        for w in BANNED_EN:
+            if re.search(r"(?<![\w#])" + re.escape(w) + r"(?!\w)", text, re.I):
+                errors.append(f"금지 표현 '{w}': {text[:60]}")
     return errors
 
 
@@ -98,7 +113,7 @@ def main():
         browser = p.chromium.launch()
         page = browser.new_page(viewport={"width": 1080, "height": 1350})
         for n, s in enumerate(script["slides"], 1):
-            html = tpl.render(s=s, t=theme, n=n, total=total, line=script["line"], root=ROOT.as_uri())
+            html = tpl.render(s=s, t=theme, n=n, total=total, line=script["line"], lang=script.get("lang", "ko"), root=ROOT.as_uri())
             hp = outdir / "_html" / f"{n:02d}.html"
             hp.write_text(html, encoding="utf-8")
             page.goto(hp.as_uri())
@@ -109,7 +124,11 @@ def main():
             print("rendered", jp)
         browser.close()
 
-    caption = "\n\n".join([script["caption_ko"], script["caption_en"], script["cta"], " ".join(script["hashtags"])])
+    if script.get("caption"):   # 영어 게시물: caption + cta + hashtags
+        parts = [script["caption"], script["cta"], " ".join(script["hashtags"])]
+    else:                         # 예전 한국어 게시물
+        parts = [script["caption_ko"], script["caption_en"], script["cta"], " ".join(script["hashtags"])]
+    caption = "\n\n".join(parts)
     (outdir / "caption.txt").write_text(caption, encoding="utf-8")
     print("caption", outdir / "caption.txt")
 
