@@ -2,6 +2,7 @@
 
 Usage: python3 src/publish.py <id>
 Run after: python3 src/render.py content/<id>.json [--cover covers/<id>.png]
+           python3 src/reel.py out/<id>   (있으면 reel.mp4도 함께 올림)
 """
 import json, re, shutil, subprocess, sys
 from pathlib import Path
@@ -33,15 +34,19 @@ def main():
     for f in imgs:
         shutil.copy(f, dst / f.name)
     shutil.copy(src / "caption.txt", dst / "caption.txt")
+    reel = src / "reel.mp4"
+    if reel.exists():
+        shutil.copy(reel, dst / "reel.mp4")
     git("add", f"posts/{pid}", f"content/{pid}.json")
     if git("status", "--porcelain", f"posts/{pid}", f"content/{pid}.json"):
         git("-c", "user.name=MELZZI bot", "-c", "user.email=noreply@anthropic.com", "commit", "-m", f"카드뉴스 {pid} 렌더링")
-    git("pull", "--rebase", "origin", git("rev-parse", "--abbrev-ref", "HEAD"))
+    git("pull", "--rebase", "--autostash", "origin", git("rev-parse", "--abbrev-ref", "HEAD"))
     git("push", "origin", "HEAD")
     sha = git("rev-parse", "--short", "HEAD")
     base = raw_base()
     urls = [f"{base}/posts/{pid}/{f.name}" for f in imgs]
-    print(json.dumps({"id": pid, "commit": sha, "urls": urls,
+    reel_url = f"{base}/posts/{pid}/reel.mp4" if (dst / "reel.mp4").exists() else ""
+    print(json.dumps({"id": pid, "commit": sha, "urls": urls, "reel_url": reel_url,
                       "caption": (dst / "caption.txt").read_text(encoding="utf-8")}, ensure_ascii=False, indent=2))
 
 
