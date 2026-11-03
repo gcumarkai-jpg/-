@@ -72,7 +72,7 @@
 ## 5. 캡션 (영어)
 
 - `caption`: 훅 한 줄 + 빈 줄 + 원인 요약 1~2줄 + "Try three small habits starting tonight:" 같은 연결 문장 + 팁 3개를 ` · `로 연결. 이모지는 첫 줄에 1개까지. 400자 이내.
-- `cta`: 저장·공유 유도 한 줄 (예: "Save this and check it tonight!").
+- `cta`: 저장·공유 유도 한 줄 + 댓글을 부르는 선택형 질문 한 줄 (예: "Save this for tonight! / Lip balm before bed or in the morning? Tell us your team 👇"). 주제 캘린더에 질문이 있으면 그 질문을 쓴다. 벤치마킹에서 선택·맞히기형 질문이 댓글을 가장 많이 받았다.
 - `hashtags`: `#MELZZI #멜찌 #MELZZIroutine` + 영어 주제 해시태그 5~6개 + `#MELZZI{라인}` 1개. 총 10개.
 - `caption_ko`, `caption_en`은 쓰지 않는다.
 
