@@ -35,7 +35,7 @@ def main():
     shutil.copy(src / "caption.txt", dst / "caption.txt")
     git("add", f"posts/{pid}", f"content/{pid}.json")
     if git("status", "--porcelain", f"posts/{pid}", f"content/{pid}.json"):
-        git("commit", "-m", f"카드뉴스 {pid} 렌더링")
+        git("-c", "user.name=MELZZI bot", "-c", "user.email=noreply@anthropic.com", "commit", "-m", f"카드뉴스 {pid} 렌더링")
     git("pull", "--rebase", "origin", git("rev-parse", "--abbrev-ref", "HEAD"))
     git("push", "origin", "HEAD")
     sha = git("rev-parse", "--short", "HEAD")
