@@ -36,7 +36,7 @@
 4. `prompts/script_prompt.md`와 `assets/characters/manifest.json`, `assets/props/_list.txt`를 읽고 대본 JSON을 `content/<콘텐츠_ID>.json`으로 쓴다. 표지 슬라이드에 `scene`과 `photo_prompt`를 모두 넣는다.
 5. `python3 src/render.py content/<ID>.json --check-only` 통과를 확인한다.
 6. 커밋하고 푸시한다: `git add content && git -c user.name="MELZZI bot" -c user.email=noreply@anthropic.com commit -m "카드뉴스 <ID> 대본" && git pull --rebase && git push`.
-7. 시트에 한 행을 추가한다: A=ID, B=오늘, C=라인, D=주제, E=photo_prompt, F 빈칸, G=`사진 대기`, H~J 빈칸, K=FALSE, L 빈칸.
+7. A열을 읽어 첫 빈 행 번호를 찾고, 그 행에 `update_values`로 쓴다(`append`는 서식 때문에 500행 뒤에 붙으므로 쓰지 않는다): A=ID, B=오늘, C=라인, D=주제, E=photo_prompt, F 빈칸, G=`사진 대기`, H~J 빈칸, K=FALSE, L 빈칸.
 
 ## 2단계 (월·수·금 20:30) — 렌더링과 업로드
 
