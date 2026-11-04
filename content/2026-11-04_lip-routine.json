@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-04_lip-routine",
+  "topic": "찬바람에 트는 입술 관리",
+  "format": "info",
+  "lang": "en",
+  "line": "GLOW",
+  "host": "glow",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "GLOW'S NOTE",
+      "label": "Glow's\nlip notes",
+      "title": "Cold air, [[flaky lips]]?",
+      "body": "Glow's 3-step lip routine for chilly days",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null,
+      "scene": ["mouth", "lipstick", "wind_face", "snowflake"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. Close-up of a Korean woman in her 20s wrapped in a soft knit scarf by a bright window on a chilly morning, her fingertip gently dabbing a plain unbranded white lip balm tube onto her lips, face above the nose out of frame, a warm mug blurred in the background. Soft peach and cream color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Is this [[you]]?",
+      "items": [
+        "Lipstick turns flaky by noon",
+        "You keep peeling off dry bits",
+        "Corners of your lips feel tight"
+      ],
+      "speech": "Even one? Keep reading!",
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Lips have [[little oil]]",
+      "body": "Lip skin is thinner than the rest of your face and has almost no oil glands. So when cold, dry air arrives, your lips feel it first.",
+      "speech": "They're delicate by nature!",
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "The [[licking]] habit",
+      "body": "Licking feels nice for a second, but as saliva dries it takes moisture with it. The more you lick, the drier your lips can feel.",
+      "speech": "Easy to do without noticing!",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Glow's [[lip routine]]",
+      "items": [
+        {"head": "Don't peel the flakes", "sub": "Soften them after a warm shower"},
+        {"head": "Reapply balm often", "sub": "After meals and right before bed"},
+        {"head": "Sip water, don't lick", "sub": "Reach for water when lips feel dry"}
+      ],
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check tonight",
+      "title": "Lip care [[checklist]]",
+      "items": [
+        "Left your lips alone?",
+        "Balm on before bed?",
+        "Sipped instead of licked?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Keep shining with [[Glow]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Cold air, flaky lips? 💋\n\nLips have almost no oil glands, so dry air reaches them first, and licking takes away what little moisture is left.\nTry three small habits starting tonight:\nDon't peel the flakes · Reapply balm often · Sip water instead of licking",
+  "cta": "Save this for tonight!\nLip balm before bed or in the morning? Tell us your team 👇",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#lipcare", "#liproutine", "#drylips", "#chappedlips", "#winterbeauty", "#selfcareroutine", "#MELZZIGLOW"]
+}
