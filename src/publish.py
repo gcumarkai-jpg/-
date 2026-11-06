@@ -14,11 +14,12 @@ def git(*a):
     return subprocess.run(["git", "-C", str(ROOT), *a], check=True, capture_output=True, text=True).stdout.strip()
 
 
+REPO = "gcumarkai-jpg/melzzi-cardnews"  # 공개 이미지 주소의 기준. 원격 주소가 프록시 형태여도 이 값을 쓴다
+
+
 def raw_base():
-    url = git("remote", "get-url", "origin")
-    m = re.search(r"github\.com[/:]([^/]+)/([^/.]+?)(?:\.git)?$", url)
     branch = git("rev-parse", "--abbrev-ref", "HEAD")
-    return f"https://raw.githubusercontent.com/{m.group(1)}/{m.group(2)}/{branch}"
+    return f"https://raw.githubusercontent.com/{REPO}/{branch}"
 
 
 def main():
