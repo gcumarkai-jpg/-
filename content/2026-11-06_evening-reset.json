@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-06_evening-reset",
+  "topic": "서머타임 끝난 뒤 저녁 리듬 되찾기",
+  "format": "info",
+  "lang": "en",
+  "line": "CALM",
+  "host": "calm",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "CALM'S NOTE",
+      "label": "Calm's\nevening notes",
+      "title": "Clocks back? [[Reset]] your evening",
+      "body": "Calm's gentle wind-down for darker nights",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null,
+      "scene": ["alarm_clock", "crescent_moon", "candle", "night_with_stars"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A cozy living room corner at early evening, dark blue sky already outside the window, a Korean woman in her 20s seen from behind curled up on a sofa under a knit blanket, a small warm table lamp glowing and a simple analog clock on the side table, a mug of warm tea in her hands. Lychee pink and warm white color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Is this [[you]]?",
+      "items": [
+        "It's dark by 5 and feels like 9",
+        "You're sleepy too early, then not",
+        "Bedtime keeps drifting later"
+      ],
+      "speech": "Let's slow down together~",
+      "character": "characters/calm_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Your clock [[shifted]]",
+      "body": "When the clocks move an hour, your body doesn't switch overnight. Meals, wake-up time and bedtime can feel a little off for a few days.",
+      "speech": "Give it a few days, okay~",
+      "character": "characters/calm_joy_hug_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "Dark [[comes early]]",
+      "body": "With sunset before dinner, long evenings under bright lights and screens can blur the line between day and night. Evenings lose their rhythm.",
+      "speech": "Evenings feel so long now~",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Calm's [[wind-down]]",
+      "items": [
+        {"head": "Keep dinner on schedule", "sub": "Same time daily, even if it's dark"},
+        {"head": "Dim the lights after 9", "sub": "Switch to a soft, warm lamp"},
+        {"head": "Set a phone-down time", "sub": "Charge it outside the bedroom"}
+      ],
+      "character": "characters/calm_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check tonight",
+      "title": "Evening [[checklist]]",
+      "items": [
+        "Dinner at your usual time?",
+        "Lights dimmed after 9?",
+        "Phone down on time?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/calm_joy_hug_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Cozy nights with [[Calm]]~",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Dark by 5 and your evening feels off? 🌙\n\nWhen the clocks go back, your daily rhythm needs a few days to catch up, and early sunsets blur the line between day and night.\nTry three small habits starting tonight:\nKeep dinner on schedule · Dim the lights after 9 · Set a phone-down time",
+  "cta": "Save this for tonight!\nWhat time do you actually put your phone down? 🌙",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#eveningroutine", "#winddown", "#daylightsavings", "#cozynights", "#nightroutine", "#selfcareroutine", "#MELZZICALM"]
+}
