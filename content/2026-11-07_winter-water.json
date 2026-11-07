@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-07_winter-water",
+  "topic": "추울수록 덜 마시는 물, 겨울 수분 습관",
+  "format": "info",
+  "lang": "en",
+  "line": "BALANCE",
+  "host": "balance",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BALANCE'S NOTE",
+      "label": "Balance's\nsip routine",
+      "title": "Cold out, [[less water]]?",
+      "body": "Balance's daily sip plan for chilly days",
+      "character": "characters/balance_wink_peace_01.png",
+      "package": null,
+      "scene": ["droplet", "glass_of_milk", "snowflake", "stopwatch"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A Korean woman in her 20s sitting by a bright window on a chilly winter morning, face out of frame, both hands in cozy knit sweater sleeves wrapped around a clear glass of warm water with faint steam rising, a plain reusable water bottle and a small desk calendar blurred on the table beside her, frosty light outside. Berry and dusty pink color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Sound like [[you]]?",
+      "items": [
+        "Not thirsty, so no water all day",
+        "Coffee and tea, but no plain water",
+        "Lips and hands feel extra dry"
+      ],
+      "speech": "Let's check in together!",
+      "character": "characters/balance_excited_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Less [[thirst]] in cold",
+      "body": "In cold weather, you often feel less thirsty than in summer. So it's easy to go hours without a sip and not even notice.",
+      "speech": "Thirst isn't the only cue!",
+      "character": "characters/balance_happy_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "Heated air is [[dry]]",
+      "body": "Indoor heating and dry winter air mean you still lose water through your breath and skin, even without sweating. You just don't see it.",
+      "speech": "Sneaky, right?",
+      "character": "characters/balance_excited_hold_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Balance's [[sip plan]]",
+      "items": [
+        {"head": "Start with a warm glass", "sub": "Right after you wake up"},
+        {"head": "Keep a bottle in sight", "sub": "On your desk, refill it at lunch"},
+        {"head": "Pair sips with routines", "sub": "One glass with each meal"}
+      ],
+      "character": "characters/balance_happy_hold_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check today",
+      "title": "Daily sip [[checklist]]",
+      "items": [
+        "Warm glass in the morning?",
+        "Bottle on your desk?",
+        "A glass with each meal?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/balance_excited_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Sip by sip with [[Balance]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/balance_wink_peace_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Cold days, fewer sips? 💧\n\nYou often feel less thirsty in winter, while heated indoor air keeps quietly drying things out.\nTry three small habits starting tomorrow:\nStart with a warm glass · Keep a bottle in sight · Pair sips with routines",
+  "cta": "Save this for tomorrow morning!\nWarm water or cold water team? 💧",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#winterhabits", "#hydration", "#drinkwater", "#dailyroutine", "#winterselfcare", "#healthyhabits", "#MELZZIBALANCE"]
+}
